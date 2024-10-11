@@ -1,0 +1,124 @@
+#page{
+    height: 100vh;
+    width: 100vw;
+
+        background-image: linear-gradient(
+          45deg,
+          hsl(240deg 100% 20%) 0%,
+          hsl(281deg 100% 21%) 8%,
+          hsl(304deg 100% 23%) 17%,
+          hsl(319deg 100% 30%) 25%,
+          hsl(329deg 100% 36%) 33%,
+          hsl(336deg 100% 41%) 42%,
+          hsl(346deg 83% 51%) 50%,
+          hsl(3deg 95% 61%) 58%,
+          hsl(17deg 100% 59%) 67%,
+          hsl(30deg 100% 55%) 75%,
+          hsl(40deg 100% 50%) 83%,
+          hsl(48deg 100% 50%) 92%,
+          hsl(55deg 100% 50%) 100%
+        );
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      
+}
+h1{
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#Card{
+    padding:20px;
+    height: 380px;
+    width: 450px;
+    background-color: rgba(243, 235, 235, 0.462);
+    backdrop-filter:blur(22px);
+    border-radius:10px;
+    display:flex;
+    flex-direction: column;
+    
+  
+}
+#weight{
+    margin:0 auto;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+#weight h1{
+    margin-bottom:5px;
+    font-size: 12px;
+}
+
+input{
+    height: 40px;
+    width: 200px;
+    border-right: none;
+    border:none;
+    padding-left:10px;
+
+}
+select{
+    height: 40px;
+    width: 80px;
+    border:none
+}
+#height{
+    display: flex;
+    gap:10px;
+
+
+flex-direction: column;
+
+width: 280px;
+margin:20px auto;
+
+
+}
+#height>h1{
+    font-size: 12px;
+}
+#height>div{
+    display: flex;
+    justify-content: space-between;
+}
+#height input{
+    width: 130px;
+
+}
+h1{
+    font-size:18px;
+
+}
+#btn{
+    height: 40px;
+    width: 280px;
+    margin:0 auto;
+    background-color: springgreen;
+    border:none;
+    color:white;
+    font-size: 24px;
+    font-weight: 800;
+    border-radius: 5px;
+}
+#result{
+    
+    padding:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    margin-top:10px;
+}
+
+@media (max-width:750px) {
+    #Card{
+        width: 100%;
+    }
+}
